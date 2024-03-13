@@ -15,7 +15,9 @@ public class Exercicio02 {
 		Fahrenheit = (Celsius * 9) / 5 + 32;
         
 		//saida
-		System.out.println("Temperatura em Fahrenheit = " + Fahrenheit);
+		System.out.println("Temperatura em Fahrenheit = " + String.format("%.2f" , Fahrenheit));
+		
+	  
 	}
 
 }
