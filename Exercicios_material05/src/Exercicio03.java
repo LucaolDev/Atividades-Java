@@ -16,12 +16,13 @@ public class Exercicio03 {
 		// processamento
 		consumo = tempo * velocidadeMedia / 10.5;
 
+		//saida
 		System.out.println("A quantidade de litros de combustível gasta na viagem é: " + consumo + " litros");
 	
 		in.close();
-		    }
+	 }
 		
-    }
+}
 
 
 

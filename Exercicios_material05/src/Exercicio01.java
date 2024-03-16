@@ -19,6 +19,7 @@ public class Exercicio01 {
 	    //saida
 		System.out.println("Area = " + area );
 		System.out.println("Perimetro = " + perimetro );
+		
 		in.close();
 	}
 

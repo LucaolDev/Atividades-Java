@@ -20,12 +20,12 @@ public class Exercicio04 {
 		valorTotal =  valorPorquilowatts * quilowatts;
 		desconto = valorTotal * 0.9;
 		
+		//saida
 		System.out.println("Valor em reais de cada quilowatt  " + mascara.format(valorPorquilowatts));
 	    System.out.println("Valor em reais a ser pago pela residência  " + mascara.format(valorTotal));
 	    System.out.println("valor a ser pago pela residência considerando um desconto de 10%  " + mascara.format(desconto));
 		 
 		in.close();
-					
 	}
 
 }
