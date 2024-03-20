@@ -4,7 +4,7 @@ public class Exercicio09 {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.err.println("Digite um número de três digitos: ");
+		System.out.println("Digite um número de três digitos: ");
 		int numero = in.nextInt();
 		
 	    int DigitoCentena = numero / 100; 
