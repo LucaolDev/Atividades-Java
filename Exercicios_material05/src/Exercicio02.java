@@ -10,6 +10,7 @@ public class Exercicio02 {
 		//entrada de dados
 		System.out.println("Digite a temperatura em graus Celsius: ");
 		Celsius = in.nextDouble();
+		in.close();
 		
 		//processamento
 		Fahrenheit = (Celsius * 9) / 5 + 32;
@@ -17,7 +18,6 @@ public class Exercicio02 {
 		//saida
 		System.out.println("Temperatura em Fahrenheit = " + String.format("%.2f" , Fahrenheit));
 		
-	  in.close();
 	}
 
 }

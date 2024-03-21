@@ -14,6 +14,7 @@ public class Exercicio05 {
 		HorasTrabalhadas = in.nextInt();
 		System.out.println("Informe o a porcentagem de desconto do INSS: ");
 		percentualINSS = in.nextDouble();
+		in.close();
 		
 		//processamento
 		SB = ValorDaHora * HorasTrabalhadas;
@@ -23,7 +24,6 @@ public class Exercicio05 {
 		//saida
 		System.out.println("O salário líquido mensal é: " + String.format("%.2f" , SL));
 		
-        in.close();
 	}
 
 }

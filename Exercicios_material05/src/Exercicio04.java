@@ -14,6 +14,7 @@ public class Exercicio04 {
 		salario = in.nextDouble();
 		System.out.println("Digite a quantidade de quilowatts gasta: ");
 		quilowatts = in.nextDouble();
+		in.close();
 		
 		//processamento de dados
 		valorPorquilowatts = salario / 7 / 100;
@@ -25,7 +26,6 @@ public class Exercicio04 {
 	    System.out.println("Valor em reais a ser pago pela residência  " + mascara.format(valorTotal));
 	    System.out.println("valor a ser pago pela residência considerando um desconto de 10%  " + mascara.format(desconto));
 		 
-		in.close();
 	}
 
 }

@@ -12,14 +12,14 @@ public class Exercicio03 {
         tempo = in.nextDouble();
         System.out.println("Digite a velocidade média durante a viagem (em km/h): ");
 	    velocidadeMedia = in.nextDouble();
-
+	    in.close();
+	    
 		// processamento
 		consumo = tempo * velocidadeMedia / 10.5;
 
 		//saida
 		System.out.println("A quantidade de litros de combustível gasta na viagem é: " + consumo + " litros");
 	
-		in.close();
 	 }
 		
 }
