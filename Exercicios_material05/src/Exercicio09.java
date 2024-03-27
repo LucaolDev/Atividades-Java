@@ -19,7 +19,7 @@ public class Exercicio09 {
 		int numeroInvertido = (DigitoUnidade *100) + (DigitoDezena *10) + DigitoCentena;
 		
 		//saida
-		System.out.println("Número Invertido:" + numeroInvertido);}
+		System.out.println("Número Invertido: " + numeroInvertido);}
 		else {
 			System.out.println("O número digitado não possui três dígitos.");
 		}

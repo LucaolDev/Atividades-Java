@@ -25,7 +25,7 @@ public class Exercicio12 {
         if (mf >= 6) {
         System.out.print("Aprovado: " + String.format("%.2f" , mf));
         } else {
-        	System.out.print("Reprovado " + String.format("%.2f" , mf));
+        	System.err.print("Reprovado " + String.format("%.2f" , mf));
         }
         
 	}
