@@ -11,11 +11,11 @@ public class Exercicio14 {
 		x = in.nextDouble();
 		in.close();
 		
-		if (x >= -5 && x <= 5) {System.err.println("Insira um numero menor que -5 e maior que 5 ");
+		if (x >= -5 || x <= 5) {System.err.println("Insira um numero menor que -5 e maior que 5 ");
 		}
 		else {
 		y = 8 / Math.sqrt(Math.pow(x, 2) - 25);
-		System.out.println("Valor de Y: " + y);
+		System.out.println("Valor de Y: " + String.format("%.2f" , y));
 		}
 	}
 
