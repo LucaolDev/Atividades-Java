@@ -5,20 +5,20 @@ public class Exercicio13 {
 	public static void main(String[] args) {
 
 		Scanner in = new Scanner(System.in);
-		double vtc, dc = 0;
+		double vt, dc;
 
 		System.out.print("Digite o valor da compra ");
-		vtc = in.nextDouble();
+		vt = in.nextDouble();
 		in.close();
 
-		if (vtc >= 1000) {
-			dc = vtc * 0.15;
-			vtc = vtc - dc;
-			System.out.print("Valor da compra com 15% de desconto: " + vtc + " e seu desconto " + dc);
+		if (vt >= 1000) {
+			dc = vt * 0.15;
+			vt = vt - dc;
+			System.out.println("Valor da compra com 15% de desconto: " + vt + "  \ne seu desconto: " + dc);
 		} else {
-			dc = vtc * 0.08;
-			vtc = vtc - dc;
-			System.out.print("Valor da compra com 8% de desconto: " + vtc + " e seu desconto " + dc);
+			dc = vt * 0.08;
+			vt = vt - dc;
+			System.out.println("Valor da compra com 8% de desconto: " + vt + "  \ne seu desconto: " + dc);
 		}
 
 	}

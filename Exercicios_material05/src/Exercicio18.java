@@ -21,9 +21,9 @@ public class Exercicio18 {
 			if (n3 < menor) {
 				menor = n3;
 			}
-			System.out.println("O menor valor é:  " + menor);
+			System.out.println("O menor valor é: " + menor);
 		} else {
-			System.out.println("Os valores são iguais");
+			System.out.println("Digite valores diferentes");
 		}
 
 	}
